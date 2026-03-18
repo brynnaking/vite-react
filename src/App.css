@@ -87,46 +87,18 @@ body {
   line-height: 1.5;
 }
 
-.reset-btn {
-  margin-top: 16px;
-  padding: 12px 18px;
-  border: none;
-  border-radius: 12px;
-  background: #1f2a44;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
+.status-on {
+  color: #1e9b53;
+  font-weight: bold;
 }
 
-.reset-btn:hover {
-  opacity: 0.9;
+.status-off {
+  color: #d64545;
+  font-weight: bold;
 }
 
 .panel {
   margin-top: 20px;
-}
-
-.button-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 14px;
-  margin-top: 16px;
-}
-
-.emotion-button {
-  border: none;
-  border-radius: 18px;
-  padding: 18px 14px;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  color: #222;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-}
-
-.emotion-button:hover {
-  transform: translateY(-3px);
 }
 
 .stats-grid {
@@ -210,10 +182,6 @@ body {
   color: #44506a;
   text-align: center;
   font-size: 0.95rem;
-}
-
-.future-panel {
-  margin-bottom: 30px;
 }
 
 @media (max-width: 900px) {
